@@ -12,7 +12,7 @@ include_once("templates/header.php")
         <input type="hidden" name="id" value="<?= $contact["id"] ?>">
 
         <div class="mb-3">
-            <label for="name" class="form-label">Nome do Contato:</label>
+            <label for="name" class="form-label">Nome do Contato</label>
             <input type="text" class="form-control" placeholder="Digite o nome" name="name" value="<?= $contact["name"] ?>" required>
         </div>
         <div class="mb-3">
